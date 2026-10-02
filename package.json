@@ -1,0 +1,27 @@
+{
+  "name": "duro-internship-portal",
+  "version": "1.0.0",
+  "description": "DURO Automation - Internship Certificate Verification Portal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --no-warnings=ExperimentalWarning server.js",
+    "dev": "node --no-warnings=ExperimentalWarning --watch server.js"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "@tesseract.js-data/eng": "^1.0.0",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.0",
+    "helmet": "^8.3.0",
+    "multer": "^2.4.0",
+    "nodemailer": "^10.0.13",
+    "pdfjs-dist": "^6.3.289",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.35.5",
+    "tesseract.js": "^7.0.0"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.13"
+  }
+}
